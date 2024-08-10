@@ -53,6 +53,9 @@ gem "phlex-rails"
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri windows ]
+  gem "lookbook", ">= 2.3.2"
+  gem "listen"
+  gem "actioncable"
 end
 
 group :development do
